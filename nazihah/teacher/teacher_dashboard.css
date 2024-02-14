@@ -1,0 +1,101 @@
+body {
+  font-family: 'Arial', sans-serif;
+  color: #000; /* Use hex code for consistency */
+  margin: 0;
+  padding: 0;
+  background-image: url('Teacher dashboard.jpg');
+  background-repeat: no-repeat; /* Correct value */
+  background-size: cover;
+}
+
+.dashboard-container {
+  max-width: 900px;
+  margin: 50px auto;
+  background-color: #faebd7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.inner_container {
+  display: flex;
+}
+.teacher-info,
+.student-info {
+  margin-bottom: 20px;
+  padding: 3%;
+  border-radius: 2%; /* Added border-radius for consistency */
+}
+
+.teacher-info {
+  background-color: #c1b3a0;
+  color: #070707;
+}
+
+.teacher-info h2 {
+  color: #125429; /* Adjusted color for consistency */
+}
+
+.student-info h2,
+.student-info h3 {
+  color: #4caf50;
+}
+
+.teacher-info p,
+.student-info p {
+  margin: 5px 0;
+}
+
+form {
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type='text'],
+input[type='submit'] {
+  width: 50%; /* Adjusted width for consistency */
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  font-size: 10px;
+}
+
+input[type='submit'] {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.school_info {
+  background-color: rgb(96, 83, 51);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}

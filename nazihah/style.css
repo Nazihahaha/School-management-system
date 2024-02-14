@@ -1,0 +1,73 @@
+.body-home {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(loginn.jpeg);
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  max-width: 800px;
+  min-width: 300px;
+  margin: auto;
+  backdrop-filter: blur(15px);
+  background: rgb(211, 213, 214);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  color: #120505;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #0e4a9e;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: auto; /* Center the button */
+}
+
+button:hover {
+  background-color: #4550a0;
+}
+
+.announcement {
+  background-color: #f9f7f5;
+  padding: 5px 10px 5px 15px;
+  min-width: 95%;
+  border-radius: 5px 5px 0 0;
+}
+
+.w-450 {
+  width: 450px;
+}

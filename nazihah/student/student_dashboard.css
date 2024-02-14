@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('student_dashboard.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.school_info {
+  background-color: rgba(96, 83, 51, 0.868);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+h1 {
+  margin: 5px 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+.dashboard-container {
+  min-width: 800px;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ccc;
+}
+
+.personal-info,
+.result,
+.attendance,
+.fees,
+.class-routine {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.information_top {
+  background-color: #faebd7;
+  padding: 3%;
+  border-radius: 2%;
+  text-align: center;
+}
+
+a {
+  background-color: #dbbe97;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+}

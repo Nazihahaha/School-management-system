@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(247, 238, 225);
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.admin {
+  background-color: rgb(33, 37, 41);
+  color: white;
+  min-height: 95vh;
+  width: 25%;
+  padding: 3%;
+  box-sizing: border-box;
+}
+
+.admin p {
+  text-align: left;
+  margin-top: 0; /* Remove default margin from paragraphs */
+}
+
+.big_container {
+  display: flex;
+  justify-content: space-between; /* Add some space between the admin panel and the table */ /* Add margin for a cleaner look */
+}
+thead {
+  background-color: slategrey;
+}
+table,
+tr,
+td {
+  border: 1px inset black;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td:hover {
+  border: 1px solid rgb(52, 46, 46);
+}
+tr:hover {
+  background-color: rgb(227, 204, 173);
+}
